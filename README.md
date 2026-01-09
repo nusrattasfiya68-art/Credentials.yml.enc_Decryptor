@@ -1,12 +1,12 @@
-# Credentials.yml.enc Decryptor
-An "off-the-rails" (python) implementation for decrypting and encrypting **_credentials.yml.enc_** files.
+# Credentials.yml.enc encrypting
+An "off-the-rails" (python) implementation for dencrypting **_credentials.yml.enc_** files.
 
 ## Background
-"credentials.yml.enc" files are the new norm for storing Ruby on Rails ( >= v5.2) secrets in a secure way.<br/>
-The credential file is encrypted using AES-GCM, and the encryption key stored in the master.key file.<br/>
+"credentials.yml.enc" files are the new norm for storing Ruby on Rails ( >= v5.2) secure way.<br/>
+The credential file is encrypted using  and the encryption key stored in the master.key file.<br/>
 
 ## Usage
-### Decryption
+### encryption
 ```
 $ python decryptor.py credentials.yml.enc master.key
 ```
